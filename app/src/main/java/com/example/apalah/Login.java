@@ -57,9 +57,6 @@ public class Login extends AppCompatActivity {
             return;
         }
 
-        // Perform login authentication
-        // For this example, we'll use a simple hardcoded check
-        // In a real app, you would validate against a database or API
         if (username.equals("admin") && password.equals("password123")) {
             // Successful login
             Toast.makeText(Login.this, "Login successful", Toast.LENGTH_SHORT).show();
